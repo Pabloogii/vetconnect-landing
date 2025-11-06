@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>VetConnect - Gestión de mascotas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="vc-header">
+    <div class="container">
+      <h1>VetConnect</h1>
+      <p class="subtitle">Soluciones sencillas para el cuidado de tu mascota</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>¿Qué hacemos?</h2>
+      <p>Landing de ejemplo para una empresa ficticia dedicada a la gestión de servicios veterinarios y el cuidado de mascotas.</p>
+      <ul>
+        <li>Agenda de citas</li>
+        <li>Gestión de historiales</li>
+        <li>Recordatorios de vacunas</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Servicios</h2>
+      <div class="grid">
+        <div class="box"><h3>Consultas</h3><p>Atención rápida y profesional.</p></div>
+        <div class="box"><h3>Urgencias</h3><p>Soporte 24/7.</p></div>
+        <div class="box"><h3>Telemedicina</h3><p>Visitas online cuando lo necesites.</p></div>
+      </div>
+    </section>
+
+    <section class="card" id="contact">
+      <h2>Contacto</h2>
+      <form id="vcForm" action="https://formspree.io/f/meopyrqd" method="POST" novalidate>
+        <label for="vc-name">Nombre</label>
+        <input id="vc-name" name="name" type="text" required>
+
+        <label for="vc-email">Email</label>
+        <input id="vc-email" name="email" type="email" required>
+
+        <label for="vc-message">Mensaje</label>
+        <textarea id="vc-message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+        <p id="vcStatus" class="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© VetConnect — Proyecto de muestra</p>
+    </div>
+  </footer>
+
+  <script src="form-handler.js"></script>
+</body>
+</html>

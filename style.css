@@ -1,0 +1,26 @@
+/* style.css - VetConnect_Landing */
+:root{
+  --bg:#f6f8fb;
+  --card:#ffffff;
+  --text:#17202a;
+  --muted:#586067;
+  --accent:#1e6fbe;
+  --container-w:900px;
+  --radius:10px;
+  --shadow:0 6px 20px rgba(20,28,40,0.06);
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text)}
+.container{max-width:var(--container-w);margin:0 auto;padding:28px}
+.vc-header{background:linear-gradient(90deg,#fff,#f3f7fb);padding:28px 0;border-bottom:1px solid #e6e9ef}
+.vc-header h1{margin:0;font-size:28px}
+.subtitle{margin:6px 0 0;color:var(--muted)}
+.card{background:var(--card);border-radius:var(--radius);padding:18px;margin:18px 0;box-shadow:var(--shadow)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+.box{padding:12px;border-radius:8px;border:1px solid #eef2f6}
+form label{display:block;margin:8px 0 4px;color:var(--muted)}
+input,textarea{width:100%;padding:10px 12px;border:1px solid #e3e6eb;border-radius:8px;font-size:14px}
+button{margin-top:12px;background:var(--accent);color:white;border:none;padding:10px 16px;border-radius:8px;cursor:pointer}
+.status{margin-top:10px;color:var(--muted)}
+.site-footer{padding:18px 0;text-align:center;color:var(--muted);font-size:13px}
