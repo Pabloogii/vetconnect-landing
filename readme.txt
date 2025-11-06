@@ -1,13 +1,37 @@
-Instrucciones rápidas:
+==========================================
+VETCONNECT - LANDING PAGE
+==========================================
 
-1) Publicar en GitHub Pages:
-   - Crea un repositorio en GitHub y sube la carpeta del proyecto.
-   - En el repositorio, ve a Settings > Pages y activa GitHub Pages desde la rama main.
-   - Tu web estará disponible en https://<tuusuario>.github.io/<nombre-del-repositorio>
+Descripción:
+-------------
+Proyecto ficticio creado como parte de mi portafolio personal.
+Representa la página web de una empresa de gestión veterinaria y servicios para mascotas (VetConnect).
 
-2) Formulario (ya configurado):
-   - El formulario apunta a https://formspree.io/f/meopyrqd
-   - Comprueba en Formspree que el formulario está activo y que recibes correos.
+Características:
+-----------------
+- Diseño limpio y profesional
+- Secciones de servicios y contacto
+- Formulario funcional mediante Formspree
+- Código simple y personalizable
 
-3) Para más cambios:
-   - Edita index.html y style.css según necesites.
+Uso:
+-----
+1. Abre index.html en tu navegador para ver el proyecto.
+2. Puedes modificar el contenido desde el archivo index.html o los estilos en style.css.
+3. Si deseas publicarlo, actívalo desde GitHub Pages en la rama principal (root).
+
+Tecnologías:
+-------------
+HTML5, CSS3, JavaScript y Formspree.
+
+Autor:
+-------
+Pablo García  
+Técnico Informático  
+LinkedIn: https://www.linkedin.com/in/pablo-garc%C3%ADa-izquierdo-699a5b385/  
+GitHub: Pabloogii
+
+Licencia:
+----------
+Este proyecto está bajo licencia MIT. Consulta el archivo LICENSE para más información.
+
